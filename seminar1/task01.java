@@ -11,6 +11,6 @@ public class task01 {
         
         String userName = console.readLine("Enter your name: ");
 
-        console.printf(String.format("Hello, %s!", userName));
+        console.printf("Hello, %s!", userName);
     }
 }
