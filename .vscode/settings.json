@@ -3,7 +3,8 @@
         "lib/**/*.jar",
         "jar\\java-json.jar",
         "jar/java-json.jar",
-        "jar/json-simple-1.1.1.jar"
+        "jar/json-simple-1.1.1.jar",
+        "jar\\commons-io-2.11.0.jar"
     ],
     "java.project.sourcePaths": [
         "seminar2"
