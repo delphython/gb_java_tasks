@@ -1,15 +1,10 @@
 import java.util.Arrays;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 public class task01 {
     public static void main(String[] args) {
-        // Map<String, List<String>> phoneBook;
-        // phoneBook = new HashMap<String, List<String>>();
-
         HashMap<String, List<String>> phoneBook = new HashMap<>();
 
         phoneBook.put("Иван", Arrays.asList("12345", "67890"));
