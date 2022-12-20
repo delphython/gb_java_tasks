@@ -65,7 +65,7 @@ class Laptop {
 
 
 public class app {
-    public static void outputArray(Laptop[] laptops) {
+    public static void filterLaptops(Laptop[] laptops) {
         Console console = System.console();
         int arrayLength = laptops.length;
         
@@ -200,6 +200,6 @@ public class app {
         laptops[3] = new Laptop("1257815", "NoName", "GGGGG", 2, 100, "Windows 7", 13, "dirty white");  
         laptops[4] = new Laptop("1257816", "MacBook", "Air 13", 32, 2000, "iOS", 13, "silver");  
 
-        outputArray(laptops);
+        filterLaptops(laptops);
     }
 }
